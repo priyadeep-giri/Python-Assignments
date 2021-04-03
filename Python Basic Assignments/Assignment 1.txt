@@ -7,20 +7,43 @@
 +
 6
 
+Answer- *,-,/,+ are the arithmatic operators which are used to perform arithmatic operations between two values which are of same
+        category like int,str,float where two different category values we cannot apply the arithmatic operators when one is a int and 
+        the other number is float the int is converted into float to perform the arithmatic operation applied. 'hello' is a string(str)
+        as it consist characters,-87.8 is float as it consist a decimal. 
+
 2. What is the difference between string and variable?
 spam
 'spam'
 
+Answer- rmation where string is the value or the type of informaiton you store inside a varibale. A string is
+        enclosed with '' or "" eg:x= "spam" here x is the variable where "spam" is string which is assigned to x.
+        variable can be used to store different type of values for eg. integer,string,float etc. for each variable a different location 
+        in the memory is allocated.
+
 3. Describe three different data forms.
+
+Answer- three different forms of data forms are-
+        Integers- Represented by int. It includes entire numbers that are either positive or negative (without fraction or decimal). There is no restriction on how long an               integer value can be in Python. ex- 123
+        Float- Represented by Float. It's a floating-point approximation of a real number. A decimal point is used to specify it. ex-34.67
+        Strings- Represented by str. Strings are sequences of bytes in Python that represent Unicode characters. A string is made up of one or more characters contained in a             single, double, or triple quotation. ex-'name',"class"
 
 4. What makes up an expression? What are the functions of all expressions?
 
+Answer- Operators are special symbols in Python that signify that a calculation should be done. Operands are the principles on which an operator operates. An expression is a             series of operands and operators, such as a + b - 9. Many operators are available in Python for combining data objects into expressions. Unlike statement expressions    
+        always represents a value and needed to be evaluated
+
 5. In this chapter, assignment statements such as spam = 10 were added. What's the difference between a declaration and an expression?
+
+Answer- Declarations defines a function with specified parameters without requiring a varible assignment. They are self contained.
+        The only difference between a function declaration is that a function expression does not begin with a function name; instead, anonymous functions are generated in 
+        function expressions. As soon as the function expressions are specified, they begin to execute.
+
 6. After running the following code, what does the variable bacon contain?
 bacon = 22
 bacon + 1
 
-
+Answer- bacon conatins 22, the value of bacon changes only when bacon= bacon + 1
 
 
 7. What should the values of the following two terms be?
@@ -28,11 +51,26 @@ bacon + 1
 'spam' + 'spamspam'
 'spam' * 3
 
+Answer- 'spamspamspam' for both
+
 8. Why is it that eggs is a true variable name but 100 is not?
+
+Answer- There are certain rules in python which restricts it from any variable name, like it is not allowed to define a variable which starts with any integer or special 
+        character. here in this as eggs only conatins characters it can be used to define a varibale but in case of 100 as it is an intger it will show an error.
 
 9. Which of the following three functions may be used to convert a value to an integer, a floating-point number, or a string?
 
+Answer- a floating-point number-float(), int()
 
 10. What is the error caused by this expression? What would you do about it?
 
 'I have eaten ' + 99 + ' burritos.'
+
+Answer- TypeError                                 Traceback (most recent call last)
+        <ipython-input-21-d24137131a5c> in <module>
+         ----> 1 'I have eaten ' + 99 + ' burritos.'
+
+         TypeError: can only concatenate str (not "int") to str
+
+         correct form-  'I have eaten ' + '99' + ' burritos.' or 'I have eaten ' + str(99) + ' burritos.'
+          
