@@ -1,22 +1,47 @@
 1.What are the two values of the Boolean data type? How do you write them?
 
+Answer- Data type of boolean can have two data type i.e TRUE or FALSE. where the number 0 is considered to be FALSE and 1 as TRUE.
+
 2. What are the three different types of Boolean operators?
+ 
+Answers- Boolean operators are the words "AND", "OR" and "NOT".
 
 3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean
 values for the operator and what it evaluate ).
 
+Answer- AND operator-
+        TRUE AND TRUE = TRUE
+        TRUE AND FALSE = FALSE
+        FALSE AND FALSE = FALSE
+        FALSE AND TRUE = FALSE
+        
+        OR operator
+        TURE OR TRUE = TRUE
+        TURE OR FALSE = TRUE
+        FALSE OR FALSE = FALSE
+        FALSE OR TRUE = TRUE 
+
 4. What are the values of the following expressions?
-(5 > 4) and (3 == 5)
-not (5 > 4)
-(5 > 4) or (3 == 5)
-not ((5 > 4) or (3 == 5))
-(True and True) and (True == False)
-(not False) or (not True)
+(5 > 4) and (3 == 5)                 - FALSE
+not (5 > 4)                          - FALSE
+(5 > 4) or (3 == 5)                  - TRUE
+not ((5 > 4) or (3 == 5))            - FALSE
+(True and True) and (True == False)  - FALSE
+(not False) or (not True)            - TRUE
 
 5. What are the six comparison operators?
 
-6. How do you tell the difference between the equal to and assignment operators?Describe a
+Answer- ==	Equal
+        !=	Not equal
+        >	Greater than
+        <	Less than
+        >=	Greater than or equal to
+        <=	Less than or equal to
+
+6. How do you tell the difference between the equal to and assignment operators?Describe a 
 condition and when you would use one.
+
+Answer- 
 
 7. Identify the three blocks in this code:
 spam = 0
