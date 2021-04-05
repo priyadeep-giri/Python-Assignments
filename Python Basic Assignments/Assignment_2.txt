@@ -41,7 +41,12 @@ Answer- ==	Equal
 6. How do you tell the difference between the equal to and assignment operators?Describe a 
 condition and when you would use one.
 
-Answer- 
+Answer- The assignment operator "=" is used to add the right-hand value to the left-hand attribute. where as the ‘==' operator compares two operands to see if they are       
+        identical. If this is the case, it returns true. Otherwise, false is returned. 
+        eg- a = 5
+            value of a is 5 i.e 5 is assigned to i
+            15 == 15
+            this will return ture as 15 is equal to 15
 
 7. Identify the three blocks in this code:
 spam = 0
