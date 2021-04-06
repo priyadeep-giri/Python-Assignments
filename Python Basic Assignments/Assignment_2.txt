@@ -85,7 +85,9 @@ Answer- To exit out of infinite loops on the command line, press CTRL + C. or in
 
 11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
 
-Answer- The execution of all the three range will be similar the only differnce lies in the meaning as in range(10) upperbound is given and lower bound is taken as 0 and step size is taken as 1 as default in range(0,10) both upper and lower bound is mention with default step size of 1 and in range(0,10,1) all upperbound, lowerbund and step size is mentioned.
+Answer- The execution of all the three range will be similar the only differnce lies in the meaning as in range(10) upperbound is given and lower bound is taken as 0 and step
+size is taken as 1 as default in range(0,10) both upper and lower bound is mention with default step size of 1 and in range(0,10,1) all upperbound, lowerbund and step size is 
+mentioned.
 
 12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent
 program that prints the numbers 1 to 10 using a while loop.
