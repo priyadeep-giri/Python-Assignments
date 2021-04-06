@@ -51,25 +51,56 @@ Answer- The assignment operator "=" is used to add the right-hand value to the l
 7. Identify the three blocks in this code:
 spam = 0
 if spam == 10:
-print('eggs')
+ print('eggs')
 if spam > 5:
-print('bacon')
+ print('bacon')
 else:
-print('ham')
-print('spam')
-print('spam')
+ print('ham')
+ print('spam')
+ print('spam')
+ 
+ Answer- The above code is divided into three blocks which are: the first block is when if spam is equal to 10 (if spam == 10), second when spam is greater than 5 (if spam > 5) 
+ and third last when else statement is used.
 
 8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints
 Greetings! if anything else is stored in spam.
 
+Answer- 
+spam= int(input())
+if spam ==1:
+    print("Hello")
+elif spam==2:
+    print("Howdy")
+else:
+    print("Greetings!")
+
 9.If your programme is stuck in an endless loop, what keys you’ll press?
+
+Answer- To exit out of infinite loops on the command line, press CTRL + C. or interrupt kernel in jupyter notebook.
 
 10. How can you tell the difference between break and continue?
 
+ Answer- The key distinction between break and continue is that break is used to end a loop immediately. 'Continue,' on the other hand, ends the current iteration and returns 
+ power of the loop's next iteration.
+
 11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+
+Answer- The execution of all the three range will be similar the only differnce lies in the meaning as in range(10) upperbound is given and lower bound is taken as 0 and step size is taken as 1 as default in range(0,10) both upper and lower bound is mention with default step size of 1 and in range(0,10,1) all upperbound, lowerbund and step size is mentioned.
 
 12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent
 program that prints the numbers 1 to 10 using a while loop.
 
+Answer- 
+for i in range(1,11):
+    print(i)
+
+i= 1
+while i<11:
+    print(i)
+    i=i+1
+
+
 13. If you had a function named bacon() inside a module named spam, how would you call it after
 importing spam?
+
+Anser- spam.bacon()
