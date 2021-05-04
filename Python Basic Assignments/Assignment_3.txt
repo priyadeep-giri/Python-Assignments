@@ -1,0 +1,53 @@
+1. Why are functions advantageous to have in your programs?
+Answer- We don't have to write the same code over and over; instead, we can generate a function and call it anytime we want.
+
+2. When does the code in a function run: when it's specified or when it's called?
+Answer- It will execute only when you will call it out.
+
+3. What statement creates a function?
+Answer- In Python, the “def” keyword is used to define a function. You begin a function with the def keyword, then give it a name and a colon (:).
+
+4. What is the difference between a function and a function call?
+Answer- A function is a piece of code that performs a certain task and returns a value. The code that is used to transfer power to a function is known as a function call.
+
+5. How many global scopes are there in a Python program? How many local scopes?
+Answer- Per program execution, there is only one global Python scope. This scope will exist until the software is over and all of its titles have been lost.
+       X=10          #X is a global funtion
+       def fun(Y):
+         A= Y+X       #Y and A are local 
+         return(A)
+       fun(1)
+
+6. What happens to variables in a local scope when the function call returns?
+Answer- A local variable keeps its value until the function is called again. After the function call, a local variable becomes undefined. After the function call, 
+        the local variable can be used outside of the function at any time.
+
+7. What is the concept of a return value? Is it possible to have a return value in an expression?
+Answer- The return declaration tells a program to exit the subroutine and return to the return address. It may be an int, str, or array, for example. 
+        Yes, return value can be part of expression.
+
+8. If a function does not have a return statement, what is the return value of a call to that function?
+Answer- None will be returned.
+
+9. How do you make a function variable refer to the global variable?
+Answer- A variable created within a function is local, meaning it can only be used inside that function. 
+        The global keyword can be used to construct a global variable within a function.
+
+10. What is the data type of None?
+Answer- The None keyword is used to specify a null value, or one that has no value at all. None isn't the same as 0 or False, nor is it the same as an empty string. 
+        None is its own data form (NoneType), and there can only be None.
+
+11. What does the sentence import areallyourpetsnamederic do?
+Answer- Python can search whether there is a module called areallyourpetsnamederic or not. If it is there, 
+        it will automatically load all of the functions within it, and we will be able to use them anytime we want. If it isn't there,
+        an error such as ModuleNotFoundError would be thrown.
+
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+Answer- Import spam as sp
+        sp.bacon()
+
+13. What can you do to save a programme from crashing if it encounters an error?
+Answer- using exception handling.
+
+14. What is the purpose of the try clause? What is the purpose of the except clause?
+Answer- A try clause is executed before the first exception is thrown. You specify how the application responds to the exception in the except clause.
